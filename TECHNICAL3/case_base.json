@@ -1,0 +1,158 @@
+[
+  {
+    "id": "C01",
+    "problem": {
+      "topic": "linear_equations",
+      "errors": [
+        "inverse_operation"
+      ],
+      "grade": 7,
+      "frequency": 2
+    },
+    "solution": {
+      "strategy": "Model the equation as a balance, then use guided practice.",
+      "practice_count": 3,
+      "feedback": [
+        "Use the opposite operation on BOTH sides of the equation."
+      ]
+    },
+    "outcome": {
+      "status": "successful",
+      "correct": 4,
+      "total": 5,
+      "source": "fictional seed example"
+    }
+  },
+  {
+    "id": "C02",
+    "problem": {
+      "topic": "linear_equations",
+      "errors": [
+        "sign_error"
+      ],
+      "grade": 8,
+      "frequency": 3
+    },
+    "solution": {
+      "strategy": "Highlight signed terms and check each intermediate step.",
+      "practice_count": 4,
+      "feedback": [
+        "Write the sign of every term before combining or moving terms."
+      ]
+    },
+    "outcome": {
+      "status": "successful",
+      "correct": 4,
+      "total": 5,
+      "source": "fictional seed example"
+    }
+  },
+  {
+    "id": "C03",
+    "problem": {
+      "topic": "linear_equations",
+      "errors": [
+        "distribution",
+        "sign_error"
+      ],
+      "grade": 8,
+      "frequency": 2
+    },
+    "solution": {
+      "strategy": "Expand brackets one term at a time before solving.",
+      "practice_count": 4,
+      "feedback": [
+        "Multiply the outside factor by EVERY term inside parentheses.",
+        "Write the sign of every term before combining or moving terms."
+      ]
+    },
+    "outcome": {
+      "status": "successful",
+      "correct": 4,
+      "total": 5,
+      "source": "fictional seed example"
+    }
+  },
+  {
+    "id": "C04",
+    "problem": {
+      "topic": "fractions",
+      "errors": [
+        "unlike_denominators"
+      ],
+      "grade": 7,
+      "frequency": 3
+    },
+    "solution": {
+      "strategy": "Use fraction strips to demonstrate equal-sized parts.",
+      "practice_count": 4,
+      "feedback": [
+        "Find a common denominator before adding fractions."
+      ]
+    },
+    "outcome": {
+      "status": "successful",
+      "correct": 4,
+      "total": 5,
+      "source": "fictional seed example"
+    }
+  },
+  {
+    "id": "C05",
+    "problem": {
+      "topic": "geometry",
+      "errors": [
+        "formula_misuse"
+      ],
+      "grade": 8,
+      "frequency": 2
+    },
+    "solution": {
+      "strategy": "Label a diagram and explain the selected area formula.",
+      "practice_count": 3,
+      "feedback": [
+        "Identify the shape and label each value before choosing a formula."
+      ]
+    },
+    "outcome": {
+      "status": "successful",
+      "correct": 4,
+      "total": 5,
+      "source": "fictional seed example"
+    }
+  },
+  {
+    "id": "C06",
+    "problem": {
+      "topic": "linear_equations",
+      "errors": [
+        "inverse_operation"
+      ],
+      "grade": 8,
+      "frequency": 3,
+      "description": "A Grade 8 student repeatedly adds instead of subtracting a constant.",
+      "submitted_work": [
+        "3x + 6 = 18 -> 3x = 24 -> x = 8 (incorrect)",
+        "2x + 4 = 12 -> 2x = 16 -> x = 8 (incorrect)",
+        "5x + 5 = 20 -> 5x = 25 -> x = 5 (incorrect)"
+      ]
+    },
+    "solution": {
+      "strategy": "Model the equation as a balance, then use guided practice.",
+      "practice_count": 4,
+      "feedback": [
+        "Use the opposite operation on BOTH sides of the equation."
+      ],
+      "support": "Work through two guided examples before independent practice.",
+      "level": "Use Grade 8 examples for linear equations.",
+      "worked_example": "3x + 6 = 18 -> 3x = 12 -> x = 4. Check: 3(4) + 6 = 18."
+    },
+    "outcome": {
+      "status": "successful",
+      "correct": 4,
+      "total": 5,
+      "source": "simulated demo quiz"
+    },
+    "retrieved_from": "C01"
+  }
+]

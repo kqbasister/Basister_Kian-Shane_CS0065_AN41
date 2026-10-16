@@ -1,0 +1,43 @@
+TA3 | INTELLIGENT TUTORING SYSTEM | CASE-BASED REASONING
+Educational demonstration; all initial cases are fictional.
+Loaded cases: 5
+
+1. NEW PROBLEM
+A Grade 8 student repeatedly adds instead of subtracting a constant.
+Topic: linear_equations | Grade: 8 | Error frequency: 3/5
+Observed errors: inverse_operation
+  3x + 6 = 18 -> 3x = 24 -> x = 8 (incorrect)
+  2x + 4 = 12 -> 2x = 16 -> x = 8 (incorrect)
+  5x + 5 = 20 -> 5x = 25 -> x = 5 (incorrect)
+
+2. RETRIEVE | SIMILARITY RANKING
+C01:  95.00% | linear_equations | inverse_operation
+C02:  55.00% | linear_equations | sign_error
+C03:  53.00% | linear_equations | distribution, sign_error
+C05:  23.00% | geometry | formula_misuse
+C04:  22.00% | fractions | unlike_denominators
+Retrieved: C01 (95.00%)
+Past solution: Model the equation as a balance, then use guided practice.
+Past practice count: 3
+
+3. REUSE AND ADAPT
+Model the equation as a balance, then use guided practice.
+Feedback: Use the opposite operation on BOTH sides of the equation.
+Use Grade 8 examples for linear equations.
+Work through two guided examples before independent practice.
+Example: 3x + 6 = 18 -> 3x = 12 -> x = 4. Check: 3(4) + 6 = 18.
+
+4. REVISE | FOLLOW-UP CHECK
+Simulated follow-up result: 4/5 correct (not a real student outcome).
+Outcome: successful
+FINAL SOLUTION: 4 practice problems. Work through two guided examples before independent practice.
+
+5. RETAIN | UPDATED CASE BASE
+New case saved: C06
+C01 | linear_equations | inverse_operation | successful
+C02 | linear_equations | sign_error | successful
+C03 | linear_equations | distribution, sign_error | successful
+C04 | fractions | unlike_denominators | successful
+C05 | geometry | formula_misuse | successful
+C06 | linear_equations | inverse_operation | successful
+Total cases: 6 | Saved in: case_base.json

@@ -1,9 +1,3 @@
-"""Technical 7: learn an unpruned ID3 tree from weighted planet observations.
-
-Run: python decision_tree.py
-Uses only Python's standard library; no CODIO or extra packages are needed.
-"""
-
 from collections import Counter
 from html import escape
 from math import log2

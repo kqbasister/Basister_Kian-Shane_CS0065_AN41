@@ -2,18 +2,6 @@
 
 Python programs for CS054 Intelligent Systems, Technical 5. The main activity uses TextBlob to analyze 10 sentences. The challenge counts happy and sad words using public word lists.
 
-## Project files
-
-| File | Purpose |
-| --- | --- |
-| `laboratory_technical_5.py` | Analyzes 10 sentences and summarizes their sentiments. |
-| `challenge.py` | Counts happy and sad words and determines the sentence's tone. |
-| `requirements.txt` | Specifies the TextBlob dependency. |
-| `data/positive-words.txt` | Positive words used by the challenge. |
-| `data/negative-words.txt` | Negative words used by the challenge. |
-| `data/README.txt` | Original dataset attribution and source information. |
-| `output/` | Completed activity sheet, sample output, and code screenshots. |
-
 ## Setup
 
 Install Python 3, then open a terminal in this project folder and install the dependency:

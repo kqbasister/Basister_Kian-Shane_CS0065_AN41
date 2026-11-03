@@ -40,39 +40,7 @@ The dependencies are pandas, Matplotlib, and WordCloud, with versions recorded i
 
 The script prints its results and saves all figures in `output/`. It does not open plot windows. Running it again replaces the generated images and `results.txt`. Input and output paths are resolved relative to the script's location.
 
-## Project files
 
-```text
-TECHNICAL9/
-|-- technical9.py
-|-- requirements.txt
-|-- README.md
-|-- Technical9_Answers.txt
-|-- RUN_TECHNICAL9.txt
-|-- data/
-|   |-- emails.csv
-|   `-- squad_dev_v1.1.json
-`-- output/
-    |-- part_vi_all_emails.png
-    |-- part_vi_email_comparison.png
-    |-- part_vii_super_bowl_50.png
-    |-- part_vii_warsaw.png
-    |-- part_vii_comparison.png
-    `-- results.txt
-```
-
-| File | Purpose |
-| --- | --- |
-| `technical9.py` | Complete code for both activities |
-| `requirements.txt` | Python dependency versions |
-| `Technical9_Answers.txt` | Written analysis, comparison, conclusion, and recommendations |
-| `RUN_TECHNICAL9.txt` | Short local run and submission guide |
-| `output/part_vi_all_emails.png` | Main Part VI output |
-| `output/part_vi_email_comparison.png` | Additional spam versus non-spam comparison |
-| `output/part_vii_super_bowl_50.png` | Individual Super Bowl 50 word cloud |
-| `output/part_vii_warsaw.png` | Individual Warsaw word cloud |
-| `output/part_vii_comparison.png` | Main Part VII comparison output |
-| `output/results.txt` | Measured record counts, retained-token totals, and top words |
 
 ## Text processing
 
@@ -108,15 +76,6 @@ The combined email cloud is dominated by `enron`, `ect`, and `vince`. The select
 - Cleaning can leave fragments such as `th` from ordinal numbers. Related forms such as `yard` and `yards` are counted separately, and phrases such as `Super Bowl` are split into individual words.
 - The challenge covers only two selected SQuAD articles. Its findings do not represent the entire dataset.
 
-## Using the results in the activity document
-
-1. Insert `output/part_vi_all_emails.png` into the Part VI output section.
-2. Insert `output/part_vii_comparison.png` into the Part VII output section.
-3. Review and adapt the explanations in `Technical9_Answers.txt`.
-4. Use `technical9.py` for the code sections and capture the relevant code in your editor for the screenshot sections.
-5. Fill in your group, member, section, and professor details.
-
-The project does not create or modify a PDF.
 
 ## Dataset sources
 
